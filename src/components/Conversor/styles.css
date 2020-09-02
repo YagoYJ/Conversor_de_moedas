@@ -1,0 +1,42 @@
+.conversor {
+  width: 50%;
+  margin: 0 20px;
+  padding: 20px;
+  max-width: 400px;
+  color: #ffffff;
+  background-color: #113d77;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.conversor h2 {
+  margin-bottom: 10px;
+}
+
+.conversor input {
+  width: 100%;
+  margin: 5px auto;
+  font-size: 14pt;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.conversor input[type="text"] {
+  border: 1px solid #cecece;
+}
+
+.conversor input[type="button"] {
+  border: none;
+  background-color: #146adb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.conversor input[type="button"]:hover {
+  opacity: 0.8;
+  transition: all 0.3s;
+}
